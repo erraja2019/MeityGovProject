@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+}   
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.header-container{
+    background-color: #318E00;
+    padding: 25px;
+}
+
+
+.head-right{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.header-input-search{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.header-input{
+    padding: 5px 10px ;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 0;
+    font-style: italic;
+    font-size:15px;
+}
+
+.fa-search{
+   background-color: black;
+   color: white;
+   padding: 5px 5px 0px 5px;
+}
+
+
+
+/*----------NAV-CONTAINER------------*/
+
+.nav-container ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container ul li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.849);
+    background-color: #e9e8d7;
+    border-right: 1px solid #fff;
+    position: relative;
+}
+
+.nav-container ul ul{
+    display: none;
+    background-color: #a9a9a92f;
+    position: absolute;
+    top: 49px;
+}
+
+.nav-container ul ul li{
+    border: none;
+    padding: 5px 5px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+
+.nav-container ul li:hover  > ul{
+    display:block;
+}
+
+.nav-container ul li:hover{
+    background-color: #318E00;
+}
+
+
+/* -------------- Main------------ */
+
+.slider-container .slides{
+    position: relative;
+    z-index: -1;
+}
+
+
+/*-----------Footer--------------*/
+
+.footer-container{
+    background-color: #E9E8D7;
+}
+
+.footer-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 14.6px;
+}
+
+.footer-ul li{
+    padding-right: 15px;
+}
+
+.footer-ul li:last-child{
+    border: none;
+}
+
+.footer-container p{
+    margin: 5px 0;
+}
+
